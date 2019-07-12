@@ -1,0 +1,39 @@
+Nights-MBP% cd / root file 
+
+
+				route53
+Nights-MacBook-Pro% ls con
+ls: con: No such file or directory
+Nights-MacBook-Pro% 
+Nights-MacBook-Pro% 
+Nights-MacBook-Pro% conda -V
+zsh: command not found: conda
+Nights-MacBook-Pro% ./conda -V
+conda 4.7.5
+Nights-MacBook-Pro% conda create -n hieu python=3.6 anaconda
+zsh: command not found: conda
+Nights-MacBook-Pro% ./conda create -n hieu python=3.6 anaconda
+WARNING conda.base.context:use_only_tar_bz2(632): Conda is constrained to only using the old .tar.bz2 file format because you have conda-build installed, and it is <3.18.3.  Update or remove conda-build to get smaller downloads and faster extractions.
+Collecting package metadata (repodata.json): done
+Solving environment: done
+
+Import time
+
+Comment out 98 and 99. China 
+
+
+
+154 AND 155
+
+        query = "INSERT INTO taula (time, username, tweet) VALUES (?,?,?)"
+        data =(time.time(), username, tweet)
+
+151 tweet= all_data["text']
+
+
+
+And tweetice  173,172 
+
+Change the database11 change 
+
+Disable 130 create table 
