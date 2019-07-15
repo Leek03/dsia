@@ -35,6 +35,7 @@ from tweepy import OAuthHandler
 from tweepy.streaming import StreamListener
 import json
 import sqlite3
+import date
 
 # Then, We need to insert access info.
 # #consumer key, consumer secret, access token, access secret.
@@ -65,7 +66,7 @@ class listener(StreamListener):
         # read the data by json
         all_data = json.loads(data)
         tweet = all_data["text"]
-        username = all_data["user"]["screen_name"]
+        #username = all_data["user"]["screen_name"]
         print(tweet)
 
         
@@ -116,7 +117,7 @@ twitterStream.filter(track=["F1"])
 # In[20]:
 
 
-connection = sqlite3.connect("mydatabase1.db")
+connection = sqlite3.connect("hieutrantwit.db")
 c = connection.cursor()
 
 
@@ -150,7 +151,7 @@ class listener1(StreamListener):
         username = all_data["user"]["screen_name"]
         # use the insert into command to add reccords.
         query = "INSERT INTO taula (time, username, tweet) VALUES (?,?,?)"
-        data =(time.time(), username, tweet)
+        data =(date.time(), username, tweet)
 
         c.execute(query,data)
 
@@ -177,7 +178,7 @@ twitterStream1.filter(track=["iran"])
 # In[ ]:
 
 
-connection = sqlite3.connect("mydatabase.db")
+connection = sqlite3.connect("hieutrantwit.db")
 c = connection.cursor()
 
 query = "select * from taula"
