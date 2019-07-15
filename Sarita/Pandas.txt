@@ -1,0 +1,12 @@
+when the datasets are not of the same type, like some are strings and some are floats. Numpy is useful only when the types are same. 
+pandas can handle large datasets
+it is a high level data manipulation tool
+Built on numpy
+In pandas the tabular DataFrame is stored in dataframe
+We can build the DataFrame in different ways:
+    1. Manually, using dictionaries, here keys are the columns labels and values are the corresponding columns 
+        it requires to first import  Pandas as pd
+        create a dataframe from dictionary, brics=pd.DataFrame(dict)
+        thus a dictionary can be converted to df
+    to access index we use brics.index=[], 
+    2. csv (comma separated values)
