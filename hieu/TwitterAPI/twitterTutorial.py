@@ -35,7 +35,6 @@ from tweepy import OAuthHandler
 from tweepy.streaming import StreamListener
 import json
 import sqlite3
-import date
 
 # Then, We need to insert access info.
 # #consumer key, consumer secret, access token, access secret.
