@@ -11,10 +11,10 @@ from tweepy import OAuthHandler
 from tweepy.streaming import StreamListener
 import json
 
-ckey="dvGM4S03FWCbU4Am5LuhKlWa2"
-csecret="oHkbyaA5WbqLAcmnG01fQUXOFn5Se9HmSPXNisQtqT6k5QeeIe"
-atoken="977026214081708032-xw6VUC5nwwgS1MDlaCXJ1YmqI04I7h6"
-asecret="V4kvwVJiQuzimM9slZXL37VMtvn5vPk1xqYr9uXjAUlCz"
+ckey = '4xPV0tmdlrb5ZQsOVqXpgmCNV'
+csecret = 'rABwgPQZJAxRRTLhbIvXg8IcrWJGDRg0MC5LLnrLy8Nph98Q0z'
+atoken = '977026214081708032-IUrnQhQenKoNJTvQIlaIyvrK30vgHLF'      
+asecret = 'OWOAjae42eJAHHeVkGaCUF43ebEAmSIu4nA53RNYipb6U'
 
 #This is a basic listener that just prints tweets to Stdoutlistener
 class Stdoutlistener(StreamListener):
